@@ -289,20 +289,38 @@ gap:1rem;
  }
 #experience{
     position:relative;
+    
 
 }
 
 .paragraph22 {
      font-size: medium;
-     font-style: italic;
-     
+     cursor: pointer;
+     background-color: darkolivegreen;
+     margin: 5px;
+     padding: 10px;
+     border-radius: 20px;
+     align-items: center;
+}
+.paragraph22 :hover{
+    color: aliceblue;
+    
+    
+}
 
+.p2{
+    color-scheme: red blue;
 }
 .experience-sub-title{
     color:rgb(53,53,53);
     font-weight: 40px;
     font-size: 1.75rem;
     margin-bottom: 2rem;
+    text-decoration: underline;
+}
+.experience-sub-title:hover{
+    font-size: 1.8rem;
+    color: lightsteelblue;
 }
 .article-details-container{
     display:flex;
@@ -332,6 +350,17 @@ article .icon{
     justify-content: center;
     flex-direction: column;
     height:70vh;
+    background-color:  rgb(29, 39, 10);
+    border-radius: 40px;
+    
+}
+
+#contact2{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    height:70vh;
+    border-radius: 20px;
 }
 .contact-info-upper-containerr{
 display: flex;
