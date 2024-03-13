@@ -1,299 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="stylesheet" href="style.css">
-       <link rel="stylesheet" href="media.css"> 
+    <link rel="stylesheet" href="media.css">
 </head>
+
 <body>
-  <nav id="desk-nav">
-  <div class="logo">
-    <a href="#">
-    <img src="/Online_portfolio-main/assets/videos/cassius.png" style="width:200px; border-radius: 80px;">
-    </a>
-  </div>
-  <div>
-    <ul class="nav-link">
-     <li><a href="#about">About</a></li>
-     <li><a href="#experience">Experience</a></li>
-     <li><a href="#about">Education</a></li>
-     <li><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
-</nav>
-<nav id="ham-nav">
-    <div class="logo">Makalapetlo Maropene</div>
-    <div class="ham-manu">
-    <div class="ham-icon" onclick="toggleManu()">
-     <span> </span>
-     <span> </span>
-     <span> </span>
-</div>
-<div class="manu-link">
-    <li><a href="#about" onclick="toggleManu()">About</a></li>
-     <li><a href="#experience" onclick="toggleManu()">Experience</a></li>
-     <li><a href="#about" onclick="toggleManu()">Education</a></li>
-     <li><a href="#contact"onclick="toggleManu()">Contact</a></li>
-</div>
-</div>
-</nav>
-
-
-<section id="profile">
-<div class="section__pic__container">
-<img src="./images//cass-profile.jpg" alt="cass-profile" style="border-radius: 120px;">
-</div>
-<div class="secion_text">
-<div  class="autoType">
-<p class="section__text__p1">Hi, i'm</p>
-<h1 class="title">Makalapetlo Maropene</h1>
-<p class="section__text__p2">IT Graduate/Software Developer</p>
-</div>
-<div class="btn-container">
- <button class="btn btn-color-2" onclick="window.open('./assets/ITGraduate.pdf')">Download Resume
-</button>
-
-<button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info
-</button>
-</div>
-<div id="socials-container">
-  <img src="./images/linkedin.png" alt="my linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/cassius-makalapetlo-19572622a/'">
-
-  <img src="./images/gihub.jpg" alt="my github profile" class="icon" onclick="location.href='https://github.com/cass-us?tab=repositories'">
-</div>
- </div>
- <br>
- <br>
-</section>
-
-<section id="about">
-<p class="section__text__p1">Get to know More</p>
-<h1 class="title">About Me</h1>
-<div class="section-container">
-<div class="section__pic__container">
-    <img src="./images/about.jpg" style="border-radius: 350px;"   alt="about me picture" class="about-pic" />
-</div>
-<div class="about-details-container">
-    <div class="about-containers">
-<div class="details-container">
-    <img src="./images/work.jpeg" alt="experience icon" class="icon"/>
-    <h3>Experience</h3>    
-    <p> 6 months <br>Java developer trainee</p>
-    </div><br>
-    <div class="details-container">
-    <img src="./images/education.png" alt="experience icon" class="icon"/>
-    <h3>Education</h3>    
-    <p>National Senior Certificate <br>Diploma Information Technology</p>
-</div>
-</div>
-<div class="text-container">
-    <br>
-    <p>Motivated and enthusiastic graduate software developer
-    with a solid foundation in programming principles
-    Seeking an entry-level software development role to leverage my academic knowledge, hands- on project experience,
-    and collaborative skills in contributing to innovative and impactful software solutions.
-    Eager to learn and grow within a dynamic development team while applying my problem-solving abilities and
-    passion for creating efficient and user-friendly applications..</p>
-</div>
-</div>
-</div>
-<!--<img src="./images/s.png" alt="arrow icon" class="icon arrow" class="arrow" onclick="location.href='#experience'"/>-->
-</section>
-<section id="experience">
-<p class="section__text__p1">Explore Me</p>
-<h1 class="title">Experience</h1>
-<div class="experience-details-container">
-    <div class="about-contianers">
-        <div class="details-container">
-        <h2 class="experience-sub-title">Skills</h2> 
-        <div class="article-container">
-            <article>
-                <img src="./images/htmlcss.jpeg" alt="" class="icon">
-                <div>
-                    <h1>HTML5/CSS3</h1>
-                    
-                </div>
-            </article>
-            <article>
-                <img src="./images/boot.jpeg" alt="" class="icon">
-                <div>
-                    <h1>Bootsrap5</h1>
-                    
-                </div>
-            </article>
-            <article>
-                <img src="./images/java.png" alt="" class="icon">
-                <div>
-                    <h1>Java</h1>
-                    
-                </div>
-            </article>
-            <article>
-                <img src="./images/javaEE.jpeg" alt="" class="icon">
-                <div>
-                    <h1>Java EE</h1>
-                   
-                </div>
-            </article>
-            <article>
-                <img src="./images/MYS.png" alt="" class="icon">
-                <div>
-                    <h1>MYSQL</h1>
-                   
-                </div>
-            </article>
-            <article>
-                <img src="./images/soft1.jpg" alt="" class="icon">
-                <div>
-                    <h1>Soft Skills</h1>
-                   
-                </div>
-            </article>
+    <nav id="desk-nav">
+        <div class="logo">
+            <a href="#">
+                <img src="/Online_portfolio-main/assets/videos/MAROPENE MAKALAPETLO.png"
+                    style="width:200px; border-radius: 80px;">
+            </a>
         </div>
-    
-    </div>
-</div>
-<br>
-<br>
-<br>
-<br>
-
-    <!--- Updating the profile and i'm adding some projects that i have made   -->
-    <section id="contact">
-        <div class="experience-details-container">
-            <div class="about-contianers">
-                <div class="details-container">
-                <h2 class="experience-sub-title">  Project </h2> 
-                <div class="article-container">
-                    <article>
-                    <div class="paragraph22">
-                    <h1>Online Shopping Store</h1>
-                    </div>
-                    <br>
-                    <p class="p2">Creted in 2021 by Makalapetlo Maropene,
-                        and Malatjie Cate.
-                    </p>
-                    <br>
-                    <div class="btn-container">
-          <a href="https://final-html-css-js-project.vercel.app/">
-                                <img src="./images/breath.png" class="project-img" style="width:100px; height:100px; border-radius: 50px;">
-                            </a>
-                       <br>
-                    <br>
-                </div>
-            </article>
-                </div>
-            
-                <div class="article-container">
-                    <article>
-                    <div class="paragraph22">
-                    
-                    <h1>Online Weather Forecast App</h1>
-                    </div>
-                    <br>
-                    <p class="p2">Creted in 2022 by Makalapetlo Maropene,
-                        Ngobeni L,
-                        and Shiviti FV.
-                    </p>
-                    <br>
-                    </div>
-                    <div class="btn-container">
-                   <a href="https://vercel.com/cassiusmaropene-gmailcom/weather-app">
-                        <img src="./images/weatherApp.webp" class="project-img" style="width:100px; height:100px; border-radius: 50px;">
-                  </a>
-                 </div>
-            </article>
-                </div>
-            </div>
-        </div>
-        </div>
-        </section>
-    <br>
-<section id="contact2">
-    <p class="section__text__p1">Get in touch</p>
-    <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-         <img src="./images/gmail.png" alt="" class="icon contact icon">
-           <a href="mailto:cassiusmaropene@gmail.com"><p>Email Me</p></a>
-        </div>
-
-        <div class="contact-info-container">
-            <img src="./images/linkedin.png" alt="" class="icon contact icon">
-           <!-- <p><a href="wwww.linkedin.com">Linkedin</a></p> -->
-           <a href="https://www.linkedin.com/in/cassius-makalapetlo-19572622a/"><p>Follow Me On Linkedin</p></a>
-        </div>
-    </div>
-
-</section>
-<br>
-<br>
-<br>
-<section id="contact">
-<div class="experience-details-container">
-    <div class="about-contianers">
-        <div class="details-container">
-        <h2 class="experience-sub-title">  Network and Distributed System </h2> 
-        <div class="article-container">
-            <article>
-            <div class="paragraph22">
-            <h1>Second Final Network Project 2021 Packet Tracer</h1>
-            </div>
-            <br>
-            <p class="p2">Creted in 2021 by Makalapetlo Maropene,
-                and Malatjie Cate.
-            </p>
-            <br>
-            <div class="btn-container">
-            <button class="btn btn-color-2" onclick="window.open('./assets/Files/DOCUMANTATION.docx')">Download Project
-            </button>
-            <br>
-            <br>
-        </div>
-    </article>
-        </div>
-    
-        <div class="article-container">
-            <article>
-            <div class="paragraph22">
-            
-            <h1>Distributed Systems Project 2022
-                Dijkstra’s algorithm 
-            </h1>
-            </div>
-            <br>
-            <p class="p2">Creted in 2022 by Makalapetlo Maropene,
-                Ngobeni L,
-                and Shiviti FV.
-            </p>
-            <br>
-            </div>
-            <div class="btn-container">
-            <button class="btn btn-color-2" onclick="window.open('./assets/Files/ANONYMOUS DSA30AT PROJECT.docx')">Download Project
-            </button>
-        </div>
-    </article>
-        </div>
-    </div>
-</div>
-</div>
-</section>
-<footer>
-    <nav>
-        <div class="nav-link-container">
+        <div>
             <ul class="nav-link">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#about">Education</a></li>
-              
-               </ul>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
     </nav>
-    <p>Copyright &#169: 2023 Makalapetlo Maropene All Rights Reserved </p>
-</footer>
-<script src="script.js"></script>
+    <nav id="ham-nav">
+        <div class="logo">Makalapetlo Maropene</div>
+        <div class="ham-manu">
+            <div class="ham-icon" onclick="toggleManu()">
+                <span> </span>
+                <span> </span>
+                <span> </span>
+            </div>
+            <div class="manu-link">
+                <li><a href="#about" onclick="toggleManu()">About</a></li>
+                <li><a href="#experience" onclick="toggleManu()">Experience</a></li>
+                <li><a href="#about" onclick="toggleManu()">Education</a></li>
+                <li><a href="#contact" onclick="toggleManu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="profile">
+        <div class="section__pic__container">
+            <img src="./images//cass-profile.jpg" alt="cass-profile" style="border-radius: 120px;">
+        </div>
+        <div class="secion_text">
+            <div class="autoType">
+                <p class="section__text__p1">Hi, i'm</p>
+                <h1 class="title">Makalapetlo Maropene</h1>
+                <p class="section__text__p2">IT Graduate/Software Developer</p>
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/ITGraduate.pdf')">Download Resume
+                </button>
+
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./images/linkedin.png" alt="my linkedin profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/cassius-makalapetlo-19572622a/'">
+
+                <img src="./images/gihub.jpg" alt="my github profile" class="icon"
+                    onclick="location.href='https://github.com/cass-us?tab=repositories'">
+            </div>
+        </div>
+        <br>
+        <br>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get to know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic__container">
+                <img src="./images/about.jpg" style="border-radius: 350px;" alt="about me picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./images/work.jpeg" alt="experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p> 6 months <br>Java developer trainee</p>
+                    </div><br>
+                    <div class="details-container">
+                        <img src="./images/education.png" alt="experience icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>National Senior Certificate <br>Diploma Information Technology</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <br>
+                    <p>Motivated and enthusiastic graduate software developer
+                        with a solid foundation in programming principles
+                        Seeking an entry-level software development role to leverage my academic knowledge, hands- on
+                        project experience,
+                        and collaborative skills in contributing to innovative and impactful software solutions.
+                        Eager to learn and grow within a dynamic development team while applying my problem-solving
+                        abilities and
+                        passion for creating efficient and user-friendly applications..</p>
+                </div>
+            </div>
+        </div>
+        <!--<img src="./images/s.png" alt="arrow icon" class="icon arrow" class="arrow" onclick="location.href='#experience'"/>-->
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore Me</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-contianers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./images/html.png" alt="" class="icon">
+                            <div>
+                                <h1>HTML5</h1>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/css.jpg" alt="" class="icon">
+                            <div>
+                                <h1>CSS3</h1>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/OIP (1).jpg" alt="" class="icon">
+                            <div>
+                                <h1>SPRINGBOOT</h1>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/boot.jpeg" alt="" class="icon">
+                            <div>
+                                <h1>Bootsrap5</h1>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/java.png" alt="" class="icon">
+                            <div>
+                                <h1>Java</h1>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/javaEE.jpeg" alt="" class="icon">
+                            <div>
+                                <h1>Java EE</h1>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/MYS.png" alt="" class="icon">
+                            <div>
+                                <h1>MYSQL</h1>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/soft1.jpg" alt="" class="icon">
+                            <div>
+                                <h1>Soft Skills</h1>
+
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <!--- Updating the profile and i'm adding some projects that i have made   -->
+            <section id="contact">
+                <div class="experience-details-container">
+                    <div class="about-contianers">
+                        <div class="details-container">
+                            <h2 class="experience-sub-title"> Project </h2>
+                            <div class="article-container">
+                                <article>
+                                    <div class="paragraph22">
+                                        <h1>Online Shopping Store</h1>
+                                    </div>
+                                    <br>
+                                    <p class="p2">Creted in 2021 by Makalapetlo Maropene,
+                                        and Malatjie Cate.
+                                    </p>
+                                    <br>
+                                    <div class="btn-container">
+                                        <a href="https://final-html-css-js-project.vercel.app/">
+                                            <img src="./images/breath.png" class="project-img"
+                                                style="width:100px; height:100px; border-radius: 50px;">
+                                        </a>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="article-container">
+                                <article>
+                                    <div class="paragraph22">
+
+                                        <h1>Online Weather Forecast App</h1>
+                                    </div>
+                                    <br>
+                                    <p class="p2">Creted in 2022 by Makalapetlo Maropene,
+                                        Ngobeni L,
+                                        and Shiviti FV.
+                                    </p>
+                                    <br>
+                            </div>
+                            <div class="btn-container">
+                                <a href="https://vercel.com/cassiusmaropene-gmailcom/weather-app">
+                                    <img src="./images/weatherApp.webp" class="project-img"
+                                        style="width:100px; height:100px; border-radius: 50px;">
+                                </a>
+                            </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="contact2">
+        <p class="section__text__p1">Get in touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./images/gmail.png" alt="" class="icon contact icon">
+                <a href="mailto:cassiusmaropene@gmail.com">
+                    <p>Email Me</p>
+                </a>
+            </div>
+
+            <div class="contact-info-container">
+                <img src="./images/linkedin.png" alt="" class="icon contact icon">
+                <!-- <p><a href="wwww.linkedin.com">Linkedin</a></p> -->
+                <a href="https://www.linkedin.com/in/cassius-makalapetlo-19572622a/">
+                    <p>Follow Me On Linkedin</p>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <br>
+    <br>
+    <br>
+    <section id="contact">
+        <div class="experience-details-container">
+            <div class="about-contianers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title"> Network and Distributed System </h2>
+                    <div class="article-container">
+                        <article>
+                            <div class="paragraph22">
+                                <h1>Second Final Network Project 2021 Packet Tracer</h1>
+                            </div>
+                            <br>
+                            <p class="p2">Creted in 2021 by Makalapetlo Maropene,
+                                and Malatjie Cate.
+                            </p>
+                            <br>
+                            <div class="btn-container">
+                                <button class="btn btn-color-2"
+                                    onclick="window.open('./assets/Files/DOCUMANTATION.docx')">Download Project
+                                </button>
+                                <br>
+                                <br>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="article-container">
+                        <article>
+                            <div class="paragraph22">
+
+                                <h1>Distributed Systems Project 2022
+                                    Dijkstra’s algorithm
+                                </h1>
+                            </div>
+                            <br>
+                            <p class="p2">Creted in 2022 by Makalapetlo Maropene,
+                                Ngobeni L,
+                                and Shiviti FV.
+                            </p>
+                            <br>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2"
+                            onclick="window.open('./assets/Files/ANONYMOUS DSA30AT PROJECT.docx')">Download Project
+                        </button>
+                    </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-link-container">
+                <ul class="nav-link">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#about">Education</a></li>
+
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169: 2023 Makalapetlo Maropene All Rights Reserved </p>
+    </footer>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
